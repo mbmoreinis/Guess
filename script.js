@@ -5,7 +5,7 @@ function guessGame() {
   // create a variable called answer, set to a random integer 1-100
   let answer = Math.floor(Math.random()*100)+1;
   // display answer for testing purposes only
-  alert(answer);
+  console.log(answer);
   // create a variable guess and set equal to 0 
   let guess = 0;
   // loop while guess is not equal to answer
